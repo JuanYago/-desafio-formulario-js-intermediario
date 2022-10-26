@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+  background-image: url(../images/bg-repeat.jpg);
+  min-height: 100vh;
+  background-size: contain;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto;
+  gap: 75px;
+}
+
+form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  padding: 20px;
+  width: 340px;
+  height: 378px;
+  gap: 10px;
+}
+
+.texto {
+  flex-direction: column;
+  width: 400px;
+  color: #ffffff;
+}
+
+.texto h1 {
+  font-weight: 900;
+  font-size: 2.7rem;
+  margin-bottom: 12px;
+}
+
+.texto h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+
+.formulario input {
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 10px;
+  width: 298px;
+  outline: 0;
+  border: 1.5px solid;
+
+}
+
+.formulario button {
+  background-color: #3CCC87;
+  color: #ffffff;
+  text-align: center;
+  width: 298px;
+  height: 75px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.erro {
+  color: #f52e2e;
+  font-size: 14px;
+  opacity: 0;
+  font-weight: 400;
+font-size: 8px;
+line-height: 9px;
+}
+
+.formulario .mensagem{
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+}
+
+.mostrar {
+  opacity: 1;
+}
+
+
+
+.formulario .borda-verde {
+  border: 1px solid #00c22b;
+}
+
+.formulario .borda-vermelha {
+  border: 1px solid #f52e2e;
+}
+
