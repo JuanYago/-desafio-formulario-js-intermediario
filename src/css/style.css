@@ -95,3 +95,9 @@ line-height: 18px;
   border: 1px solid #f52e2e;
 }
 
+.formulario .campo{
+  margin-top: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: 0;
+}

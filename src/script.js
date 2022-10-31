@@ -7,7 +7,6 @@ button.addEventListener('click', (event) => {
     event.preventDefault()
 
 
-    console.log(inputs)
     
     inputs.forEach((input, indice) => {
 
